@@ -5,6 +5,11 @@
       "url": "https://github.com/XynonWasTaken/dinit-userservd",
       "branch": "master",
       "revision": "0745b208d6a742e9b6e8e168a1dfea707f2c11be"
+    },
+    "linux-xanmod-edge": {
+      "url": "https://aur.archlinux.org/linux-xanmod-edge.git",
+      "branch": "master",
+      "revision": "8c1bf9b760240f91099a81172831a2b523fa4218"
     }
   }
 }
