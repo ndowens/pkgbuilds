@@ -1,0 +1,10 @@
+{
+  "config_version": 1,
+  "mirrors": {
+    "dinit-userservd": {
+      "url": "https://github.com/XynonWasTaken/dinit-userservd",
+      "branch": "master",
+      "revision": "0745b208d6a742e9b6e8e168a1dfea707f2c11be"
+    }
+  }
+}
