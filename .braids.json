@@ -10,6 +10,11 @@
       "url": "https://aur.archlinux.org/linux-xanmod-edge.git",
       "branch": "master",
       "revision": "8c1bf9b760240f91099a81172831a2b523fa4218"
+    },
+    "xibo": {
+      "url": "git@git.disroot.org:ndowens/xibo.git",
+      "branch": "master",
+      "revision": "74921d704833a7b68aef1ecf69e9c0d5155861cd"
     }
   }
 }
