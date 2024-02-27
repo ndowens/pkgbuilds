@@ -8,5 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pacman-repo-builder/action@0.0.0-rc.64
+        
         with:
-          command: build-pacman-repo build
+          command: pacman -S git ; build-pacman-repo build
