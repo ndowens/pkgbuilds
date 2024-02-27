@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pacman-repo-builder/action
+      - uses: pacman-repo-builder/action@master
         with:
           command: build-pacman-repo build
