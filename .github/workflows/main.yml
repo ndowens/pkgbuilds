@@ -1,13 +1,15 @@
+name: CI
+
 on:
   push:
-    branch: master
+    branches: main
 
 jobs:
-  build-pacman-repo:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pacman-repo-builder/action@0.0.0-rc.64
-        
-        with:
-          command: pacman -S git ; build-pacman-repo build
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Validate package
+        uses: hapakaien/archlinux-package-action@v2
